@@ -1,7 +1,5 @@
 # 主要功能
 
-![image-20241124103552463](etcd-operator.assets/image-20241124103552463.png)
-
 Etcd-operator 是一个用于在 Kubernetes 集群上自动化部署和管理 etcd 集群的工具。以下是 etcd-operator 的一些主要功能：
 1. **集群管理**：etcd-operator 可以自动创建、扩展、升级和备份 etcd 集群。
 2. **故障检测和自愈**：它能够检测到 etcd 集群中的故障，并自动尝试修复，比如重启失败的 etcd 实例或替换不可用的成员。
@@ -34,6 +32,8 @@ Etcd-operator 是一个用于在 Kubernetes 集群上自动化部署和管理 et
 
 ### 逻辑图
 
+![bakup-operator.drawio](etcd-operator.assets/bakup-operator.drawio.svg)
+
 ## restore-operator
 
 ### 功能
@@ -41,4 +41,8 @@ Etcd-operator 是一个用于在 Kubernetes 集群上自动化部署和管理 et
 根据指定时间，备份etcd数据到指定都存储地址
 
 ### 逻辑图
+
+![restore-operator.drawio](etcd-operator.assets/restore-operator.drawio.svg)
+
+
 
