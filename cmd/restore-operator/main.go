@@ -77,9 +77,8 @@ func main() {
 	if err != nil {
 		logrus.Fatalf("create service failed: %+v", err)
 	}
-
 	rl, err := resourcelock.New(
-		resourcelock.EndpointsResourceLock,
+		resourcelock.LeasesResourceLock,
 		namespace,
 		"etcd-restore-operator",
 		kubecli.Core(),
