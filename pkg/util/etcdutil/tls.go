@@ -19,7 +19,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/hanfengyizu/etcd/pkg/transport"
 )
 
 const (

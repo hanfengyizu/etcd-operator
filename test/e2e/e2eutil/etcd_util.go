@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coreos/etcd-operator/pkg/util/constants"
-	"github.com/coreos/etcd/clientv3"
+	"github.com/hanfengyizu/etcd-operator/pkg/util/constants"
+	"github.com/hanfengyizu/etcd/clientv3"
 )
 
 const (

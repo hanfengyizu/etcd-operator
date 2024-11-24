@@ -19,13 +19,13 @@ import (
 	"errors"
 	"fmt"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/util/constants"
-	"github.com/coreos/etcd-operator/pkg/util/etcdutil"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
+	api "github.com/hanfengyizu/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/hanfengyizu/etcd-operator/pkg/util/constants"
+	"github.com/hanfengyizu/etcd-operator/pkg/util/etcdutil"
+	"github.com/hanfengyizu/etcd-operator/pkg/util/k8sutil"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/hanfengyizu/etcd/clientv3"
+	"github.com/hanfengyizu/etcd/etcdserver/api/v3rpc/rpctypes"
 	"k8s.io/api/core/v1"
 )
 
